@@ -32,6 +32,7 @@ h2 {
 h3 {
     font-size: 1.33rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 h4 {
@@ -49,13 +50,24 @@ main {
 
 .img-container {
     overflow: hidden;
+    width: 17rem;
+    height: 11rem;
+    margin-bottom: .75rem;
 }
   
 .img-container img {
     display: block;
+    width: 17rem;
+    height: 11rem;
 }
   
-  
+input {
+    width: 20rem;
+}  
+
+textarea {
+    width: 18.5rem;
+}
 
 /* Header */
 
@@ -132,12 +144,122 @@ nav {
 }
 
 /* Infoblock */
+
+.infoblock {
+    padding: 1.5rem 3rem;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
 /* Company */ 
+
+#company {
+    background-color: #A1E799;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.company h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.information-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-point {
+    background-color: #fff;
+    width: 22rem;
+    margin: 0 1.5rem;
+    padding: 1rem;
+    line-height: 1.5;
+
+}
+
+.info-point p {
+    font-weight: lighter;
+}
+
+.extra {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
 /* References */
+
+#references {
+    padding: 2rem;
+}
+
+#references h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.references {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reference-point {
+    margin: 1rem;
+}
+
 /* Contact */
+
+#contact {
+    padding: 2rem;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+label {
+    margin-right: 1.5rem;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.f-part {
+    display: inline-flex;
+    padding-top: 1.5rem;
+}
+
+.info-form, .companyname {
+    color: #238919;
+    text-transform: uppercase;
+}
+
 /* Footer */
 
 footer {
     position: relative;
     top: 3.38rem; /* To offset for fixed header. */
+    background-color: #238919;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: normal;
+    padding: 1.5rem 0 1.5rem 1.2rem;
+    line-height: 1.6;
 }
